@@ -1765,6 +1765,9 @@ _add_snake_case(SentencePieceProcessor)
 _add_snake_case(SentencePieceTrainer)
 set_random_generator_seed = SetRandomGeneratorSeed
 
+set_min_log_level = SetMinLogLevel
+get_min_log_level = GetMinLogLevel
+
 from ._version import __version__
 
 class _LogStream(object):

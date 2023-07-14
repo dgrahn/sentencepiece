@@ -709,6 +709,11 @@ class SentencePieceProcessor {
 // std::random_device.
 void SetRandomGeneratorSeed(unsigned int seed);
 
+namespace logging {
+int GetMinLogLevel();
+void SetMinLogLevel(int v);
+}  // namespace logging
+
 // IO related functions to absorb model formats.
 namespace io {
 // Loads `model_proto` from `filename`.
